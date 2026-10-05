@@ -1,0 +1,31 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+:root {
+  font-family: 'DM Sans', Arial, sans-serif;
+  color: #2a3a32;
+  background: #faf6ee;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+
+  /* Refined palette: terracotta accent instead of gold, subtler shadows */
+  --forest: #1a2d23;
+  --forest-light: #3b5a44;
+  --cream: #faf6ee;
+  --paper: #f0ece0;
+  --clay: #b86543;
+  --ink: #3d4e44;
+  --ink-muted: #6d7f75;
+  --line: #d9d4c6;
+  --shadow-sm: 0 1px 4px rgba(26, 45, 33, .05);
+  --shadow-md: 0 2px 10px rgba(26, 45, 33, .08);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 86px; }
+body { margin: 0; min-width: 320px; }
+button, input { font: inherit; }
+button { cursor: pointer; }
+a { color: inherit; }
+img { max-width: 100%; }
+::selection { background: #b86543; color: #faf6ee; }
